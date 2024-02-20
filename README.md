@@ -1,2 +1,2 @@
-# synthesizer-grids-apollo_pipeline
-Apollo (Sussex HPC) pipeline for create synthesizer cloudy grids
+# synthesizer_grid_creation
+Scripts for generating synthesiser SPS grids to separate them from the main code 
