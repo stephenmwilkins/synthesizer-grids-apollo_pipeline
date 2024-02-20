@@ -1,10 +1,16 @@
 #!/bin/bash
+# create a cloudy grid
 
-# create a cloudy grid using the default assumptions
+# path to directory containing grid files
+grid_dir="/research/astrodata/highz/synthesizer/grids/" 
 
-# synthesizer_dir="/Users/stephenwilkins/Dropbox/Research/data/synthesizer/"
-synthesizer_dir="/research/astrodata/highz/synthesizer/" # apollo
+# path to directory to save cloudy runs
+cloudy_dir="/research/astrodata/highz/synthesizer/cloudy/"
+
+# machine
 machine="apollo"
+
+# path to cloudy execuable
 c="/research/astro/flare/software/cloudy/"
 
 cd ..
@@ -15,6 +21,6 @@ do
   params=${arrIN[1]}
   printf '%s\n' "$sps"
   printf '%s\n' "$params"
-  echo python3 create_cloudy_input_grid.py -synthesizer_data_dir $synthesizer_dir -machine $machine -incident_grid $incident  -cloudy_params $params  -cloudy_path $c
-  python3 create_cloudy_input_grid.py -synthesizer_data_dir $synthesizer_dir -machine $machine -incident_grid $incident  -cloudy_params $params  -cloudy_path $c
+  echo python3 create_cloudy_input_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident  -cloudy_params $params  -cloudy_path $c
+  python3 create_cloudy_input_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident  -cloudy_params $params  -cloudy_path $c
 done < synthesizer-grids-apollo_pipeline/incident.txt
