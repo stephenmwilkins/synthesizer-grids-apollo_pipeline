@@ -2,10 +2,10 @@
 # create a cloudy grid
 
 # path to directory containing grid files
-grid_dir="/research/astrodata/highz/synthesizer/grids/" 
+grid_dir="/research/astrodata/highz/synthesizer/grids" 
 
 # path to directory to save cloudy runs
-cloudy_dir="/research/astrodata/highz/synthesizer/cloudy/"
+cloudy_dir="/research/astrodata/highz/synthesizer/cloudy"
 
 # machine
 machine="apollo"
