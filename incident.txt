@@ -1,1 +1,13 @@
-bc03-2016-BaSeL_chabrier-0.1,100 c23.01-sps
+c17.03-sps
+c23.01-sps-alpha_enhancement
+c23.01-sps-c17.03
+c23.01-sps-depletion_model:None
+c23.01-sps-depletion_model:ClassicCloudy
+c23.01-sps-depletion_model:Gutkin2016
+c23.01-sps-depletion_scale
+c23.01-sps-hydrogen_density
+c23.01-sps-ionisation_parameter
+c23.01-sps-no_abundance_scalings
+c23.01-sps-no_cosmic_rays
+c23.01-sps-no_grains
+c23.01-sps
