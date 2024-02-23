@@ -1,13 +1,22 @@
 #!/bin/bash
-grid_dir="/research/astrodata/highz/synthesizer/grids" # apollo
+
+# path to directory containing grid files
+grid_dir="/research/astrodata/highz/synthesizer/grids" 
+
+# path to directory to save cloudy runs
 cloudy_dir="/research/astrodata/highz/synthesizer/cloudy"
+
+# machine
+machine="apollo"
+
+
 cd ..
 while IFS="" read -r p || [ -n "$p" ]
 do
   arrIN=(${p// / })
   grid=${arrIN[0]}
   echo $grid
-  python3 create_synthesizer_grid.py -grid_name $grid -grid_dir $grid_dir -cloudy_dir $cloudy_dir -line_calc_method linelist
+  python3 create_synthesizer_grid.py -grid_name $grid -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -line_calc_method linelist
 done < synthesizer-grids-apollo_pipeline/grids.txt
 
 
