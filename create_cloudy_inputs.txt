@@ -1,4 +1,3 @@
-bpass-2.2.1-bin_chabrier03-0.1,300.0 c23.01-sps-grains:Orion
 bpass-2.2.1-bin_chabrier03-0.1,300.0 c23.01-sps-depletion_model:None
 bpass-2.2.1-bin_chabrier03-0.1,300.0 c23.01-sps-depletion_scale
 bpass-2.2.1-bin_chabrier03-0.1,300.0 c23.01-sps-no_abundance_scalings
