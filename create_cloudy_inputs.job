@@ -49,6 +49,15 @@ arrIN=(${p// / })
 incident=${arrIN[0]}
 params=${arrIN[1]}
 
+echo $grid_dir
+echo $cloudy_dir
+echo $machine
+echo $c
+echo $index
+echo $incident
+echo $params
+
+
 source ../../../../venv/bin/activate
 cd ..
 python3 create_cloudy_input_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident -cloudy_params $params  -cloudy_path $c

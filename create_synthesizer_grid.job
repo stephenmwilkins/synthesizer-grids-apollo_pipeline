@@ -38,9 +38,6 @@ cloudy_dir="/research/astrodata/highz/synthesizer/cloudy"
 # machine
 machine="apollo"
 
-# path to cloudy execuable
-c="/research/astro/flare/software/cloudy/"
-
 # increment array task ID so not zero indexed
 let index=$SGE_TASK_ID
 
@@ -53,10 +50,11 @@ params=${arrIN[1]}
 echo $grid_dir
 echo $cloudy_dir
 echo $machine
+echo $index
 echo $incident
 echo $params
 
 # activate python environement
 source ../../../../venv/bin/activate
 cd ..
-python3 create_synthesizer_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident -cloudy_params $params  -cloudy_path $c
+python3 create_synthesizer_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident -cloudy_params $params
