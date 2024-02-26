@@ -60,4 +60,5 @@ echo $params
 
 source ../../../../venv/bin/activate
 cd ..
+echo python3 create_cloudy_input_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident -cloudy_params $params  -cloudy_path $c
 python3 create_cloudy_input_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident -cloudy_params $params  -cloudy_path $c
