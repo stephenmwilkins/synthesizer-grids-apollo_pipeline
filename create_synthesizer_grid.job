@@ -28,18 +28,6 @@
 # needs to be copied, and then execute the program
 ######################################################################
 
-# increment array task ID so not zero indexed
-let index=$SGE_TASK_ID
-
-# access line at index from input_names file
-grid=$(sed "${index}q;d" grids.txt)
-
-synthesizer_dir="/research/astrodata/highz/synthesizer/" # apollo
-
-cd ..
-python3 create_synthesizer_grid.py -grid_name $grid -synthesizer_data_dir $synthesizer_dir -line_calc_method linelist
-
-
 
 # path to directory containing grid files
 grid_dir="/research/astrodata/highz/synthesizer/grids" 
@@ -62,6 +50,13 @@ arrIN=(${p// / })
 incident=${arrIN[0]}
 params=${arrIN[1]}
 
+echo $grid_dir
+echo $cloudy_dir
+echo $machine
+echo $incident
+echo $params
+
+# activate python environement
 source ../../../../venv/bin/activate
 cd ..
 python3 create_synthesizer_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident -cloudy_params $params  -cloudy_path $c
