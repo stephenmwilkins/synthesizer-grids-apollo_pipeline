@@ -44,7 +44,7 @@ c="/research/astro/flare/software/cloudy/"
 let index=$SGE_TASK_ID
 
 # access line at index from input_names file
-p=$(sed "${index}q;d" create_synthesizer_grid.txt)
+p=$(sed "${index}q;d" create_cloudy_inputs.txt)
 arrIN=(${p// / })
 incident=${arrIN[0]}
 params=${arrIN[1]}
