@@ -44,10 +44,11 @@ c="/research/astro/flare/software/cloudy/"
 let index=$SGE_TASK_ID
 
 # access line at index from input_names file
-p=$(sed "${index}q;d" incident_params.txt)
+p=$(sed "${index}q;d" create_synthesizer_grid.txt)
 arrIN=(${p// / })
 incident=${arrIN[0]}
 params=${arrIN[1]}
 
+source ../../../../venv/bin/activate
 cd ..
-python3 create_cloudy_input_grid_from_cloudy.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident -cloudy_params $params  -cloudy_path $c
+python3 create_cloudy_input_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident -cloudy_params $params  -cloudy_path $c

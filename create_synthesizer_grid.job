@@ -38,3 +38,30 @@ synthesizer_dir="/research/astrodata/highz/synthesizer/" # apollo
 
 cd ..
 python3 create_synthesizer_grid.py -grid_name $grid -synthesizer_data_dir $synthesizer_dir -line_calc_method linelist
+
+
+
+# path to directory containing grid files
+grid_dir="/research/astrodata/highz/synthesizer/grids" 
+
+# path to directory to save cloudy runs
+cloudy_dir="/research/astrodata/highz/synthesizer/cloudy"
+
+# machine
+machine="apollo"
+
+# path to cloudy execuable
+c="/research/astro/flare/software/cloudy/"
+
+# increment array task ID so not zero indexed
+let index=$SGE_TASK_ID
+
+# access line at index from input_names file
+p=$(sed "${index}q;d" create_synthesizer_grid.txt)
+arrIN=(${p// / })
+incident=${arrIN[0]}
+params=${arrIN[1]}
+
+source ../../../../venv/bin/activate
+cd ..
+python3 create_synthesizer_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident -cloudy_params $params  -cloudy_path $c
