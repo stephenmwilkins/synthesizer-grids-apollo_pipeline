@@ -1,2 +1,3 @@
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-depletion_model:ClassicCloudy 
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-depletion_model:Gutkin2016 
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c17.03-sps-depletion_model:Gutkin2016 
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c17.03-sps-no_grains
+
