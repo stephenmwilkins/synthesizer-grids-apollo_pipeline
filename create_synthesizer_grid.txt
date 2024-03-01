@@ -1,1 +1,6 @@
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-depletion_model:ClassicCloudy 
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-depletion_model:Gutkin2016 
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-depletion_model:None 
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-depletion_scale 
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-no_abundance_scalings 
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-no_grains 
