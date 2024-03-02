@@ -1,11 +1,1 @@
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-fixed-plane_parallel 
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-fixed-alpha_enhancement 
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-fixed-depletion_model:ClassicCloudy 
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-fixed-depletion_model:Gutkin2016 
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-fixed-depletion_model:None 
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-fixed-depletion_scale 
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-fixed-hydrogen_density 
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-fixed-ionisation_parameter 
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-fixed-no_abundance_scalings 
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-fixed-no_grains 
-bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-fixed 
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-fixed-no_grain_scaling
