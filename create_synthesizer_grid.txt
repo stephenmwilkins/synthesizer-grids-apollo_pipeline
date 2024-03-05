@@ -1,3 +1,4 @@
+bpass-2.2.1-bin_chabrier03-0.1,300.0 c23.01-sps 
 bc03-2016-BaSeL_chabrier-0.1,100 c23.01-fixed 
 bc03-2016-BaSeL_kroupa-0.1,100 c23.01-fixed 
 bc03-2016-BaSeL_salpeter-0.1,100 c23.01-fixed 
