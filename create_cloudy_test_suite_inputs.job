@@ -52,7 +52,7 @@ let index=$SGE_TASK_ID
 # access line at index from input_names file
 p=$(sed "${index}q;d" test_suite.txt)
 arrIN=(${p// / })
-test_params=test_params/${arrIN[0]}
+test_params=test_suite/${arrIN[0]}
 
 echo $grid_dir
 echo $cloudy_dir
