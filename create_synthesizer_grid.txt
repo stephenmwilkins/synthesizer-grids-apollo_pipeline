@@ -1,2 +1,10 @@
-relagn-limited c23.01-nlr
-relagn-limited c23.01-blr
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-fixed
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-fixed-alpha
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-fixed-constant_pressure
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-fixed-depletion_model:None
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-fixed-depletion_scale
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-fixed-hydrogen_density
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-fixed-ionisation_parameter
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-fixed-no_abundance_scalings
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-fixed-no_grains
+bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8. c23.01-sps-fixed-reference_abundance:Asplund2009
