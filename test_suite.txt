@@ -1,3 +1,4 @@
+default
 alpha
 constant_pressure
 depletion_model:None
@@ -6,4 +7,5 @@ hydrogen_density
 ionisation_parameter
 no_abundance_scalings
 no_grains
+grains:ISM
 reference_abundance:Asplund2009
