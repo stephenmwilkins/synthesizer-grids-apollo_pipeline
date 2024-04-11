@@ -29,7 +29,7 @@
 ######################################################################
 
 # incident grid to use for testings
-incident="bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8."
+incident="bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8.hdf5"
 
 # reference parameter file to use
 params="c23.01-sps"
