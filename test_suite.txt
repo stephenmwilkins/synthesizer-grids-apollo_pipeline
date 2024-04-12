@@ -1,11 +1,12 @@
 default
+column_density
+no_grains
+grains:ISM
+depletion_model:None
 alpha
 constant_pressure
-depletion_model:None
 depletion_scale
 hydrogen_density
 ionisation_parameter
 no_abundance_scalings
-no_grains
-grains:ISM
 reference_abundance:Asplund2009
