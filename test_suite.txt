@@ -1,5 +1,4 @@
 default
-column_density
 no_grains
 grains:ISM
 depletion_model:None
