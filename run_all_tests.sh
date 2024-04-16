@@ -15,6 +15,6 @@ for i in "${!test_params[@]}"; do
     echo $model
     cd $model
     tail run.sh
-    # sh run.sh
+    sh run.sh
     cd ..
 done
