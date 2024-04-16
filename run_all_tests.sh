@@ -11,10 +11,10 @@ test_params=( "default" "no_grains" "grains:ISM" "depletion_model:None" "alpha" 
 
 for i in "${!test_params[@]}"; do
     test_param=${test_params[$i]}
-    model=$incident_grid_$default_param-$test_param
+    model=$incident_grid\_$default_param-$test_param
     echo $model
-    cd $model
-    tail run.sh
-    # sh run.sh
-    cd ..
+    # cd $model
+    # tail run.sh
+    # # sh run.sh
+    # cd ..
 done
