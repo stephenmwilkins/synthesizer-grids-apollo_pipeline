@@ -1,2 +1,1 @@
-agnsed-limited c23.01-blr
-agnsed-limited c23.01-nlr
+bpass-2.2.1-bin_chabrier03-0.1,300.0
