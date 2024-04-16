@@ -13,8 +13,8 @@ for i in "${!test_params[@]}"; do
     test_param=${test_params[$i]}
     model=$incident_grid\_$default_param-$test_param
     echo $model
-    # cd $model
-    # tail run.sh
-    # # sh run.sh
-    # cd ..
+    cd $model
+    tail run.sh
+    # sh run.sh
+    cd ..
 done
