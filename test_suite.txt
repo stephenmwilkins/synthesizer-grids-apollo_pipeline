@@ -2,7 +2,7 @@ default
 no_grains
 grains:ISM
 depletion_model:None
-depletion_model:ClassicCloudy
+depletion_model:CloudyClassic
 depletion_model:Gutkin2016
 alpha
 constant_pressure

@@ -7,7 +7,7 @@ incident_grid='bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8.'
 default_param='cloudy-c23.01-sps'
 
 # tests
-test_params=( "default" "no_grains" "grains:ISM" "depletion_model:None" "alpha" "constant_pressure" "depletion_scale" "hydrogen_density" "ionisation_parameter" "no_abundance_scalings" "reference_abundance:Asplund2009")
+test_params=( "default" "no_grains" "grains:ISM" "depletion_model:None" "depletion_model:CloudyClassic" "depletion_model:Gutkin2016" "alpha" "constant_pressure" "depletion_scale" "hydrogen_density" "ionisation_parameter" "no_abundance_scalings" "reference_abundance:Asplund2009" "reference_abundance:Gutkin2016" "planeparallel")
 
 for i in "${!test_params[@]}"; do
     test_param=${test_params[$i]}
