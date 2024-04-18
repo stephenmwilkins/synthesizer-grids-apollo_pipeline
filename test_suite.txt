@@ -2,6 +2,8 @@ default
 no_grains
 grains:ISM
 depletion_model:None
+depletion_model:ClassicCloudy
+depletion_model:Gutkin2016
 alpha
 constant_pressure
 depletion_scale
@@ -9,3 +11,5 @@ hydrogen_density
 ionisation_parameter
 no_abundance_scalings
 reference_abundance:Asplund2009
+reference_abundance:Gutkin2016
+planeparallel
