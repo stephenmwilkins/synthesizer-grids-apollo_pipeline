@@ -17,7 +17,6 @@ do
   params=${arrIN[1]}
   printf '%s\n' "$sps"
   printf '%s\n' "$params"
-  com=create_synthesizer_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident -cloudy_params $params
-  echo $com
-  python $com
+  echo "create_synthesizer_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident -cloudy_params $params"
+  python create_synthesizer_grid.py -grid_dir $grid_dir -cloudy_dir $cloudy_dir -machine $machine -incident_grid $incident -cloudy_params $params
 done < synthesizer-grids-apollo_pipeline/create_synthesizer_grid.txt
